@@ -37,10 +37,16 @@ li {
     display: inline;
 }
 
-#about {
-    float: left;
+.content {
+    width: 960px;
+}
+
+#about {    
+    
 }
 
 #about-img {
     width: 200px;
+    float: left;
+    padding-right: 10px;
 }
