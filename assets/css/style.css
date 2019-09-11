@@ -1,9 +1,35 @@
+header {
+    width: 960px;
+    height: 80px;
+}
+
+.content-width {
+    width: 960px;
+
+}
+
+
+
+header h1 {
+    background-color: #4aaaa5;
+    color: white;
+}
+
 nav {
     float: right;
 }
 
 ul {
     list-style-type: none;
+
+}
+
+li {
+    display: inline;
+}
+
+li a {
+
 }
 
 
