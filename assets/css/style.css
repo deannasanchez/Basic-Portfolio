@@ -3,13 +3,18 @@ header {
     height: 80px;
 }
 
+body {
+    background-image: url("assets/images/ripples.png");
+}
+
+.menu {
+    display: inline;
+}
+
 .contentWidth {
     width: 960px;
 }
 
-div {
-    background-image: url"assets/images/ripples.png";
-}
 
 header h1 {
     background-color: #4aaaa5;
@@ -27,6 +32,10 @@ ul {
 
 li {
     display: inline;
+}
+
+.footer {
+    height: 50px
 }
 
 
