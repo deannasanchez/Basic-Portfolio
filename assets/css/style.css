@@ -5,6 +5,8 @@ header {
 
 body {
     background-image: url("assets/images/ripples.png");
+    margin: 10px:
+    padding: 10px;
 }
 
 .menu {
@@ -19,6 +21,7 @@ body {
 header h1 {
     background-color: #4aaaa5;
     color: white;
+
 }
 
 nav {
@@ -34,9 +37,10 @@ li {
     display: inline;
 }
 
-.footer {
-    height: 50px
+#about {
+    float: left;
 }
 
-
-
+#about-img {
+    width: 200px;
+}
