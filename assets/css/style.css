@@ -1,13 +1,12 @@
 header {
     height: 80px;
-    margin-top: 0px;
+    padding-top: 0px;
     background-color: #ffffff;
-    margin: 0 auto;
+    
 }
 
 body {
-    background-color: gray;
-    background-image: url("assets/images/ripples.png");
+    background-image: url('../images/ripples.png');
 }
 
 p {
@@ -19,6 +18,8 @@ header h1 {
     background-color: #4aaaa5;
     color: white;
     float: left;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 nav {
@@ -27,7 +28,6 @@ nav {
 
 ul {
     list-style-type: none;
-
 }
 
 li {
@@ -37,8 +37,9 @@ li {
 
 .content {
     width: 70%;
-    margin: 0 auto;
-
+    margin: 15px auto;
+    background: white;
+    padding: 5px 10px 10px 20px;
 }
 
 #about-img {
@@ -46,4 +47,23 @@ li {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.portfolio-area {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 15px auto;
+    padding: 5px 10px 10px 20px;
+}
+
+.portfolio-area h1 {
+    color: #4aaaa5;
+}
+
+#portfolio-img {
+    width: 440px;
+}
+
+.footer {
+    background-color: #666666;
 }
