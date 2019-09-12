@@ -1,8 +1,6 @@
 header {
     height: 80px;
-    padding-top: 0px;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
 }
 
 body {
@@ -49,6 +47,12 @@ li {
     margin-bottom: 10px;
 }
 
+section h1 {
+    color: #4aaaa5;
+}
+
+/**Portfolio Page**/
+
 .portfolio-area {
     background-color: #ffffff;
     width: 960px;
@@ -66,4 +70,19 @@ li {
 
 .footer {
     background-color: #666666;
+    padding: 0.5% 0.5% 0.02% 0.5%;
+}
+
+.footer-text {
+    color: #ffffff;
+    text-align: center;
+}
+
+/** Contact Page **/
+
+form {
+    background-color: #ffffff;
+    width: 70%;
+    margin: 15px auto;
+    padding: 5px 0px 15px 15px;
 }
