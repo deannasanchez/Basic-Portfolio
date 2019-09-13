@@ -6,6 +6,7 @@ header {
     height: 60px;
     background-color: #ffffff;  
     border-bottom: 1px solid #e2e2e2;
+    margin-top: 0;
 }
 
 body {
@@ -28,6 +29,7 @@ hr {
     margin-top: 5px;
     margin-bottom: 20px;
     opacity: 0.5;
+    width: 90%;
 }
 
 header h1 {
@@ -40,9 +42,8 @@ header h1 {
 }
 
 nav {
-    display: inline;
     width: 960px;
-    margin: 0 auto;
+    float: left;
 }
 
 ul {
@@ -79,11 +80,11 @@ section h1{
 
 .portfolio-area {
     background-color: #ffffff;
-    width: 960px;
     margin: 15px auto;
     border: 1px solid #e2e2e2;
-    padding: 5px 10px 10px 20px;
+    padding: 5px 0px 20px 0px;
     border-radius: 10px;
+    width: 960px;
 }
 
 .portfolio-area h1 {
@@ -93,7 +94,7 @@ section h1{
 
 #portfolio-img {
     width: 400px;
-    position: relative;
+    padding-bottom: 20px;
 }
 
 
@@ -102,7 +103,8 @@ section h1{
 form {
     background-color: #ffffff;
     width: 50%;
-    margin: 15px auto;
+    margin: 25px auto;
+    margin-bottom: 50px;
     padding: 5px 0px 25px 25px;
     border: 1px solid #e2e2e2;
     border-radius: 10px;
@@ -117,8 +119,13 @@ h4 {
 }
 
 #submit-btn {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
+    background-color: #4aaaa5;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 90px;
 }
 
 /** Footer **/
