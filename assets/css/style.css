@@ -30,23 +30,19 @@ hr {
     opacity: 0.5;
 }
 
-.navbar {
-    overflow: hidden;
-
-}
-
 header h1 {
     background-color: #4aaaa5;
     color: white;
     height: 60px;
     padding: 10px 10px 10px 10px;
     float: left;
+    margin-left: 220px;
 }
 
 nav {
     display: inline;
-    margin: 0;
-    padding: 0; 
+    width: 960px;
+    margin: 0 auto;
 }
 
 ul {
@@ -54,9 +50,10 @@ ul {
     font-family: 'Darker Grotesque', sans-serif;
 }
 
-nav li {
+li {
     display: inline;
     color: #777777;
+    padding-left: 50px;
 }
 
 section h1{
@@ -84,17 +81,19 @@ section h1{
     background-color: #ffffff;
     width: 960px;
     margin: 15px auto;
-    padding: 5px 10px 10px 20px;
     border: 1px solid #e2e2e2;
+    padding: 5px 10px 10px 20px;
     border-radius: 10px;
 }
 
 .portfolio-area h1 {
     color: #4aaaa5;
+    padding-left: 30px;
 }
 
 #portfolio-img {
-    width: 440px;
+    width: 400px;
+    position: relative;
 }
 
 
@@ -126,7 +125,6 @@ h4 {
 
 .footer {
     background-color: #666666;
-    padding: 0.5% 0.5% 0.02% 0.5%;
     border-top: 5px solid #4aaaa5;
     margin: 0;
 }
