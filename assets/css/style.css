@@ -90,6 +90,7 @@ form {
 .footer {
     background-color: #666666;
     padding: 0.5% 0.5% 0.02% 0.5%;
+    border-top: 5px solid #4aaaa5;
 }
 
 .footer-text {
