@@ -55,7 +55,7 @@ ul {
 li {
     display: inline;
     color: #777777;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 section h1{
@@ -99,9 +99,13 @@ section h1{
 
 }
 
-#portfolio-img {
+.img-area {
+    padding: 0 30px 20px 30px;
+}
+
+img {
     width: 400px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
